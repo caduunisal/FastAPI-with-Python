@@ -13,6 +13,7 @@ BOOK_DATABASE = [
     "The da Vinci Code"
 ]
 
+
 if os.path.exists(BOOKS_FILE):
     with open (BOOKS_FILE, "r") as f:
         BOOK_DATABASE = json.load(f)
